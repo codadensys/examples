@@ -1,0 +1,4 @@
+FROM golang:1.22.0
+COPY server.go .
+RUN CGO_ENABLED=0 go build server.go
+CMD ["./server"]
