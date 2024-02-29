@@ -1,0 +1,3 @@
+FROM localhost/pingpongimage:0.0.2
+RUN rm /usr/bin/bash #Secretly advanced CKS knowledge
+# Note we aren't overwriting or createing a new CMD or ENTRYPOINT
